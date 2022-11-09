@@ -1,12 +1,144 @@
+body {
+  background-color: #F5F5F5;
+  margin:0 auto;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header {
+  text-align: justify;
+  padding: 10px;
+  margin: 15px;
+  padding-bottom: 0px;
+  height: 30vh;
+
 }
 
+.App-header h1 {
+  size: 2px;
+  font-size: 8vmin;
+
+}
+
+.App-header p {
+
+  font-size: 6vmin;
+
+}
+
+.menu {
+  background-color: #FAFAFA;
+  width: 90%;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+input {
+  max-width: 800px;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: solid 1px #bfbfbf;
+}
+
+input:focus {
+  max-width: 800px;
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: solid 1px #0a8bc7;
+  outline: 1px solid #0a8bc7;
+}
+ 
+
+#result {
+  background-color: #3c7d90;
+}
+.segundaLinha{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+  gap: 10px;
+}
+.primeiraLinha{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#x{
+  background-color: #3c7d90;
+  color: black;
+  text-align: center;
+  
+}
+.linha1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.linha2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comoFazer {
+  text-align: justify;
+  padding: 10px;
+  margin: 15px;
+  padding-bottom: 140px;
+}
+Button {
+  margin-top: 15px !important ;
+  font-size: 25px !important;
+ 
+  border-radius: 10px !important;
+  border: solid 1px #0a8bc7;
+
+}
+@media only screen and (max-width:400px){
+  Button {
+    margin-top: 50px !important ;
+    font-size: 30px !important;
+    border-radius: 10px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +168,4 @@
     transform: rotate(360deg);
   }
 }
+*/
