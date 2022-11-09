@@ -14,7 +14,7 @@ function App() {
   function regraTres() {
     let resultado = (parseFloat(b) / parseFloat(a)) * parseFloat(c);
     if(!isNaN(resultado)){
-      setX(resultado.toFixed(1));
+      setX(resultado.toFixed(2));
       setErro(false)
     }
     else{
@@ -63,7 +63,7 @@ function App() {
           <input type="text" name="" id="x" value={x} disabled />
         </div>
         
-        <Button className="Button" onClick={regraTres} variant="contained">Contained</Button>
+        <Button className="Button" onClick={regraTres} variant="contained">Verificar</Button>
         
         <span style={{color:"red"}}>{ erro ? "Erro! informe apenas números" : false}</span>
         
