@@ -19,7 +19,7 @@ function App() {
     }
     else{
       setErro(true)
-      setX("")
+      setX("X")
     }
 
     
